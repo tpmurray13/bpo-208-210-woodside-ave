@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>208 &amp; 210 Woodside Ave Multifamily Site &mdash; Broker Price Opinion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
+      --color-bg:#ffffff; --color-surface:#ffffff; --color-surface-2:#eaf2ed; --color-border:#e1ded6; --color-text:#333333; --color-text-muted:#6b6f6c;
+      --color-primary:#17613c; --color-primary-2:#d9ebe1; --color-band:#a3701f; --color-band-soft:#f2e6d3;
+      --color-alert:#a3341f; --color-alert-soft:#f2dcd3;
+      --radius-md:.5rem; --radius-lg:.9rem; --radius-xl:1.2rem;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.06); --shadow-md:0 8px 24px rgba(0,0,0,.08);
+      --font-display:'Outfit', system-ui, sans-serif; --font-body:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0} html{scroll-behavior:smooth} body{font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background:var(--color-bg);line-height:1.6}
+    a{color:var(--color-primary)} .container{max-width:1100px;margin:0 auto;padding:0 var(--space-4)}
+    .topbar{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:2px solid var(--color-primary);z-index:20}
+    .topbar-inner{display:flex;justify-content:space-between;align-items:center;padding:var(--space-3) 0;flex-wrap:wrap;gap:var(--space-2)}
+    .logo{display:flex;gap:var(--space-3);align-items:center;font-weight:600}
+    .logo img{height:42px;width:auto;display:block}
+    .hero{padding:var(--space-16) 0 var(--space-12)}
+    .eyebrow{font-size:var(--text-sm);letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-muted);margin-bottom:var(--space-3)}
+    h1,h2,h3,h4{font-family:var(--font-display);line-height:1.12;font-weight:700;color:var(--color-primary)}
+    h1{font-size:var(--text-2xl);max-width:36ch;margin-bottom:var(--space-4)} h2{font-size:var(--text-xl);margin-bottom:var(--space-5)} h3{font-size:var(--text-lg);margin-bottom:var(--space-3)} h4{font-size:var(--text-base);margin-bottom:var(--space-2)}
+    .lede{max-width:76ch;color:var(--color-text-muted)}
+    .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:var(--space-8);align-items:start}
+    .card{background:var(--color-surface);border:1px solid rgba(31,35,32,.12);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}
+    .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4);margin-top:var(--space-8)}
+    .stat{background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-4)} .stat-label{font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted)} .stat-value{font-size:var(--text-lg);font-weight:700;margin-top:.2rem;color:var(--color-primary)}
+    .stat-alert .stat-value{color:var(--color-alert)}
+    section{padding:var(--space-10) 0}
+    section.alt{background:var(--color-surface-2)}
+    .table{width:100%;border-collapse:collapse;font-size:var(--text-sm)} .table th,.table td{padding:.85rem .6rem;border-bottom:1px solid rgba(31,35,32,.1);text-align:left;vertical-align:top} .table th{color:var(--color-text-muted);font-weight:600;white-space:nowrap}
+    .table-wrap{overflow-x:auto}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8)}
+    .prop-card + .prop-card{margin-top:var(--space-6)}
+    .spec-list{display:flex;flex-direction:column;gap:var(--space-4);margin-top:var(--space-4)}
+    .spec-row{padding-bottom:var(--space-3);border-bottom:1px solid rgba(31,35,32,.1)}
+    .spec-row:last-child{border-bottom:none;padding-bottom:0}
+    .spec-label{font-size:var(--text-xs);color:var(--color-text-muted);font-weight:600;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.25rem}
+    .spec-value{font-size:var(--text-sm);line-height:1.55}
+    .three-col{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4)}
+    .pill{display:inline-block;background:var(--color-primary-2);color:var(--color-primary);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-band{display:inline-block;background:var(--color-band-soft);color:var(--color-band);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-alert{display:inline-block;background:var(--color-alert-soft);color:var(--color-alert);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-outline{display:inline-block;border:1px solid rgba(31,35,32,.18);color:var(--color-text-muted);padding:.3rem .65rem;border-radius:999px;font-size:var(--text-xs);font-weight:600;margin:.15rem .25rem .15rem 0}
+    .note{font-size:var(--text-sm);color:var(--color-text-muted);margin-top:var(--space-4)}
+    footer{padding:var(--space-10) 0;background:var(--color-primary);color:#ffffff;font-size:var(--text-sm)}
+    .footer-inner{display:flex;align-items:center;gap:var(--space-6);flex-wrap:wrap}
+    .footer-logo{height:36px;width:auto;filter:brightness(0) invert(1)}
+    .disclaimer{background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-5);font-size:var(--text-sm);color:var(--color-text-muted);margin-top:var(--space-6)}
+    .prop-divider{display:flex;align-items:center;gap:var(--space-4);margin:var(--space-4) 0 var(--space-6)}
+    .prop-divider .badge{background:var(--color-primary);color:#fff;font-family:var(--font-display);font-weight:700;font-size:var(--text-xs);letter-spacing:.06em;text-transform:uppercase;padding:.4rem .85rem;border-radius:999px;white-space:nowrap}
+    .prop-divider .badge.two{background:var(--color-band)}
+    .prop-divider hr{flex:1;border:none;border-top:1px solid rgba(31,35,32,.15)}
+    .terms-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-6)}
+    .bio-grid{display:grid;grid-template-columns:.9fr 1.4fr;gap:var(--space-8);align-items:start}
+    .reuse-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-5);margin-top:var(--space-5)}
+    .reuse-card{background:var(--color-surface);border:1px solid rgba(31,35,32,.12);border-radius:var(--radius-lg);padding:var(--space-5)}
+    .reuse-card h4{margin-bottom:var(--space-2)}
+    .reuse-card ul{margin:0 0 0 1.1rem;padding:0;font-size:var(--text-sm)}
+    .reuse-card li{margin-bottom:.35rem}
+    @media (max-width: 820px){.grid,.two-col,.terms-grid,.three-col,.bio-grid,.reuse-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+    .btn-print{display:inline-flex;align-items:center;gap:.5rem;background:var(--color-primary);color:#ffffff;border:none;padding:.55rem 1.1rem;border-radius:999px;font-family:var(--font-body);font-weight:600;font-size:var(--text-xs);letter-spacing:.02em;cursor:pointer;box-shadow:var(--shadow-sm);transition:background .15s ease}
+    .btn-print:hover{background:#0f4a2d}
+    .btn-print svg{width:15px;height:15px;fill:currentColor;flex:none}
+    .topbar-actions{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+    @media screen and (max-width: 820px){.adj-table{min-width:760px}.comps-table{min-width:680px}.adj-table td:nth-child(4){min-width:380px}}
+    @media print {
+      .no-print{display:none !important}
+      *{-webkit-print-color-adjust:exact;print-color-adjust:exact;color-adjust:exact}
+      html,body{font-size:10.5pt;line-height:1.45}
+      .topbar{position:static;backdrop-filter:none;box-shadow:none;border-bottom:2px solid var(--color-primary)}
+      .hero{padding:14pt 0 10pt}
+      section{padding:12pt 0}
+      .grid,.two-col,.terms-grid,.three-col,.bio-grid,.reuse-grid{grid-template-columns:1fr;gap:10pt}
+      .stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8pt}
+      .spec-list{gap:6pt;margin-top:6pt}
+      .spec-row{padding-bottom:5pt}
+      .spec-label{font-size:7.5pt}
+      .spec-value{font-size:9pt;line-height:1.4}
+      h1{font-size:19pt;margin-bottom:8pt}
+      h2{font-size:14.5pt;margin-bottom:8pt}
+      h3{font-size:12pt;margin-bottom:6pt}
+      h4{font-size:10.5pt;margin-bottom:4pt}
+      .card{box-shadow:none;border:1px solid #d7d3c8;padding:10pt}
+      .stat{page-break-inside:avoid}
+      .reuse-card{page-break-inside:avoid;border:1px solid #d7d3c8}
+      table{font-size:9pt}
+      tr{page-break-inside:avoid}
+      .comps-table{table-layout:fixed;width:100%}
+      .comps-table th,.comps-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:6.4pt;line-height:1.32;padding:.28rem .18rem}
+      .adj-table{table-layout:fixed;width:100%}
+      .adj-table th,.adj-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:7pt;line-height:1.32;padding:.28rem .18rem}
+      .adj-table th:nth-child(1),.adj-table td:nth-child(1){width:15%}
+      .adj-table th:nth-child(2),.adj-table td:nth-child(2){width:9%}
+      .adj-table th:nth-child(3),.adj-table td:nth-child(3){width:8%}
+      .adj-table th:nth-child(4),.adj-table td:nth-child(4){width:58%}
+      .adj-table th:nth-child(5),.adj-table td:nth-child(5){width:10%}
+      .parcel-table{table-layout:fixed;width:100%}
+      .parcel-table th,.parcel-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:7.4pt;line-height:1.32;padding:.3rem .2rem}
+      .table-wrap{overflow-x:visible}
+      h2,h3,h4{page-break-after:avoid}
+      .prop-divider{page-break-after:avoid}
+      footer{background:var(--color-primary) !important;color:#ffffff !important;padding:10pt 0}
+      a{color:var(--color-primary) !important;text-decoration:none}
+      footer a{color:#ffffff !important;text-decoration:underline}
+      .sale-comps th:nth-child(1),.sale-comps td:nth-child(1){width:22%}
+      .sale-comps th:nth-child(2),.sale-comps td:nth-child(2){width:9%}
+      .sale-comps th:nth-child(3),.sale-comps td:nth-child(3){width:11%}
+      .sale-comps th:nth-child(4),.sale-comps td:nth-child(4){width:8%}
+      .sale-comps th:nth-child(5),.sale-comps td:nth-child(5){width:9%}
+      .sale-comps th:nth-child(6),.sale-comps td:nth-child(6){width:8%}
+      .sale-comps th:nth-child(7),.sale-comps td:nth-child(7){width:14%}
+      .sale-comps th:nth-child(8),.sale-comps td:nth-child(8){width:8%}
+      .sale-comps th:nth-child(9),.sale-comps td:nth-child(9){width:11%}
+      .land-comps th:nth-child(1),.land-comps td:nth-child(1){width:28%}
+      .land-comps th:nth-child(2),.land-comps td:nth-child(2){width:10%}
+      .land-comps th:nth-child(3),.land-comps td:nth-child(3){width:12%}
+      .land-comps th:nth-child(4),.land-comps td:nth-child(4){width:9%}
+      .land-comps th:nth-child(5),.land-comps td:nth-child(5){width:10%}
+      .land-comps th:nth-child(6),.land-comps td:nth-child(6){width:31%}
+      @page{margin:0.55in}
+    }
+    .subject-photo{float:right;width:300px;max-width:100%;margin:0 0 var(--space-4) var(--space-6)}.subject-photo img{width:100%;height:auto;display:block;border-radius:var(--radius-lg);box-shadow:var(--shadow-md)}.subject-photo figcaption{font-size:var(--text-xs);color:var(--color-text-muted);margin-top:.4rem}.hero .stats{clear:both}
+    @media (max-width:700px){.subject-photo{float:none;width:100%;max-width:340px;margin:0 0 var(--space-4)}}
+    @media print{.subject-photo{width:2.4in}.card{break-inside:avoid;page-break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="logo"><img src="assets/gm-logo.svg" alt="Grant-Murray Real Estate" /></div>
+      <div class="topbar-actions">
+        <div class="pill">Broker Price Opinion</div>
+        <button class="btn-print no-print" type="button" onclick="window.print()">
+          <svg viewBox="0 0 24 24"><path d="M6 9V2h12v7h2a2 2 0 0 1 2 2v7h-4v4H6v-4H2v-7a2 2 0 0 1 2-2h2zm2-5v5h8V4H8zm8 14H8v3h8v-3zm2-2h2v-5H4v5h2v-2h12v2z"/></svg>
+          Print / Save as PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Broker Price Opinion &middot; Multifamily Development Site &middot; 208 &amp; 210 Woodside Ave and adjoining 1.6 ac, Fayetteville, NC 28301</div>
+        <h1>208 &amp; 210 Woodside Ave &mdash; Haymount Multifamily Site &mdash; Broker Price Opinion</h1>
+        <figure class="subject-photo"><img src="assets/woodside-aerial.jpg" alt="Aerial map of the three Canales parcels outlined in red on the east side of Woodside Ave, with the existing house on the north front parcel" width="1116" height="697" /><figcaption>The three parcels, outlined in red, on the east side of Woodside Ave. The existing house is on the north front parcel (210). Aerial supplied by the client.</figcaption></figure>
+        <p class="lede">This report values three adjoining parcels owned by Adam Canales as one <strong>multifamily development site</strong> in Haymount, about a mile west of downtown Fayetteville. The site totals <strong>2.75 acres</strong> by deed (about <strong>2.70 acres</strong> by GIS), all zoned <strong>MR-5 (Mixed Residential 5)</strong>, with about <strong>235 feet</strong> of frontage on Woodside Ave. As instructed, it assumes the 1955 house at 210 Woodside Ave is demolished and the land is sold to a multifamily developer. Zoning allows about <strong>54 units</strong> by right, and up to about 60&ndash;66 with the city&rsquo;s sustainability bonus.</p>
+        <div class="stats">
+          <div class="stat"><div class="stat-label">Land</div><div class="stat-value">2.70&ndash;2.75 ac</div></div>
+          <div class="stat"><div class="stat-label">Zoning</div><div class="stat-value">MR-5</div></div>
+          <div class="stat"><div class="stat-label">By-right density</div><div class="stat-value">54 units</div></div>
+          <div class="stat stat-alert"><div class="stat-label">Broker price opinion</div><div class="stat-value">$385,000</div></div>
+          <div class="stat" style="grid-column:span 2"><div class="stat-label">Value range</div><div class="stat-value">$350K&ndash;$425K</div></div>
+        </div>
+        <p class="note">The price opinion of $385,000 covers all three parcels sold together, net of demolition. That is about $142,600 per acre of land, or about $7,130 per by-right unit. This is a broker&rsquo;s opinion of value for marketing purposes, not a certified USPAP appraisal.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Subject property summary</h2>
+<div class="card"><div class="spec-list"><div class="spec-row"><div class="spec-label">Location</div><div class="spec-value">East side of Woodside Ave, between W Rowan St and Athens Ave, in the Haymount neighborhood of the City of Fayetteville. The site is about a mile west of downtown, near the Haymount shops on Hay St and Fort Bragg Rd.</div></div><div class="spec-row"><div class="spec-label">Parcel 1: 210 Woodside Ave (north front)</div><div class="spec-value">REID 0437264197000 / PIN 0437-26-4197, 0.69 ac. It holds a 1-story house built in 1955 (effective year 1963): 2,382 SF heated, 4 bedrooms, 3 full and 1 half baths. County value $406,900 (land $135,000, building $221,499). This report assumes the house is demolished.</div></div><div class="spec-row"><div class="spec-label">Parcel 2: 208 Woodside Ave (south front)</div><div class="spec-value">REID 0437264076000 / PIN 0437-26-4076, 0.46 ac, vacant and wooded, about 120 ft of frontage. County value $105,000.</div></div><div class="spec-row"><div class="spec-label">Parcel 3: rear 1.6 ac</div><div class="spec-value">REID 0437267162000 / PIN 0437-26-7162, 1.60 ac, vacant and wooded, no street frontage. It is reached only through the two front parcels, so it should be sold with them. County value $144,000.</div></div><div class="spec-row"><div class="spec-label">Totals</div><div class="spec-value">2.75 ac by county acreage. The county GIS outlines measure about 2.70 ac (117,000&ndash;117,600 SF), so a survey should confirm the area. County value $655,900 in all, of which $384,000 is land.</div></div><div class="spec-row"><div class="spec-label">Owner and purchase</div><div class="spec-value">Adam Canales bought all three parcels on one deed on 4/13/2021 (Book 11088, Page 590). The $440 in deed stamps indicates a price of <strong>$220,000</strong>, about $80,000 per acre including the house.</div></div><div class="spec-row"><div class="spec-label">Neighbors</div><div class="spec-value">North: a 12-acre City of Fayetteville tract at 725 W Rowan St (zoned CC), with tennis courts and parking. East: large single-family lots on Hillside Ave, zoned SF-10. South: homes on Woodside Ave and Athens Ave and the Athens Place townhome association, all zoned MR-5. West, across Woodside Ave: single-family homes and the Woodside Place townhome association.</div></div></div></div><p class="note">Sources: Cumberland County records for <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=79756" target="_blank" rel="noopener">210 Woodside Ave</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/BuildingDetails.aspx?PARCELPK=79756&amp;BldgCardNum=1&amp;SectionNum=1" target="_blank" rel="noopener">its building card</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=79755" target="_blank" rel="noopener">208 Woodside Ave</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=79759" target="_blank" rel="noopener">the rear 1.6 ac</a>, and the <a href="https://gis.co.cumberland.nc.us/server/rest/services" target="_blank" rel="noopener">Cumberland County GIS</a> parcel and zoning layers. The property was not inspected for this report.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Zoning &mdash; MR-5 and maximum density</h2>
+<div class="card table-wrap"><table class="table parcel-table">
+<tr><th>Test</th><th>MR-5 standard</th><th>Result for this site</th></tr>
+<tr><td>Gross density</td><td>20 units per acre; 24 if the site abuts an arterial, collector or major street. Gross acreage counts the whole parcel. A fraction of 0.6 or more rounds up.</td><td>Woodside Ave is a city-maintained local street, so 20/ac applies. 2.70 ac &times; 20 = 53.9, which rounds up to <strong>54 units</strong> (55 at the deed acreage of 2.75 ac).</td></tr>
+<tr><td>Lot area for multifamily</td><td>15,000 SF plus 1,000 SF per unit. Where this and density conflict, the lower number of units controls.</td><td>About 102 units. This test does not control.</td></tr>
+<tr><td>Sustainability bonus (Section 30-5.N)</td><td>Up to +10% density with 3 listed features, and +10% to +20% with 7. Up to 2 extra stories. Approved by the city&rsquo;s Technical Review Committee (TRC) with the site plan.</td><td>About 59&ndash;60 units with 3 features, and up to about 64&ndash;66 with 7. Not assumed in the value.</td></tr>
+<tr><td>Height</td><td>The greater of 6 stories or 75 ft</td><td>Not a limit for this site</td></tr>
+<tr><td>Lot coverage</td><td>55% maximum</td><td>About 64,700 SF</td></tr>
+<tr><td>Setbacks</td><td>Front 25 ft (15 ft if parking is at the side or rear); side 10 ft; rear 30 ft; 20 ft between buildings</td><td>Workable on the site&rsquo;s 235-ft-wide front and long rear</td></tr>
+<tr><td>Parking</td><td>Multifamily: 1.8 spaces per unit minimum. Surface parking may not sit between the building and the street, and parking beside a building may not take more than 25% of the frontage.</td><td>About 98 spaces for 54 units, which is about 34,000 SF of parking and aisles</td></tr>
+<tr><td>Design standards (Section 30-5.H)</td><td>Building footprint 20,000 SF maximum; fa&ccedil;ade 220 ft maximum</td><td>Two or three buildings rather than one</td></tr>
+<tr><td>Approval path</td><td>Multifamily with 2 or more buildings or 8 or more units goes through TRC site plan review. No rezoning is needed.</td><td>A by-right administrative approval</td></tr>
+</table></div><p class="note">Sources: <a href="https://cityoffayetteville.legistar.com/View.ashx?M=F&amp;ID=12469399&amp;GUID=20BB9AF4-9627-431B-803E-231B3662B996" target="_blank" rel="noopener">MR-5 dimensional standards (city file 23-3696)</a>, <a href="https://online.encodeplus.com/regs/fayetteville-nc/export2doc.aspx?pdf=1&amp;tocid=005.030.009" target="_blank" rel="noopener">UDO density computation rule</a>, <a href="https://online.encodeplus.com/regs/fayetteville-nc/export2doc.aspx?pdf=1&amp;tocid=005.030.005" target="_blank" rel="noopener">UDO parking table and Section 30-5.N</a>, <a href="https://www.fayettevillenc.gov/City-Departments/Development-Services/Planning-Zoning/Site-Plan-Subdivision-Approval" target="_blank" rel="noopener">City site plan approval page</a>, <a href="https://services.arcgis.com/j3zNT485kmwrBtMJ/arcgis/rest/services/Fayetteville_Roadways/FeatureServer/0" target="_blank" rel="noopener">City roadway layer (Woodside Ave maintenance and class)</a>. City file <a href="https://cityoffayetteville.legistar.com/LegislationDetail.aspx?ID=8073945&amp;GUID=71323AF7-21CD-406B-B1F2-EC6766494673&amp;Options=&amp;Search=&amp;FullText=1" target="_blank" rel="noopener">26-0379</a>, which would clarify the MR-5 dimensional table, was on the 6/22/2026 council agenda; whether it was adopted was not confirmed. A buyer should get a zoning verification letter from the city.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Realistic unit yield</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>Zoning maximum: 54 units by right</strong> (55 if a survey confirms 2.75 ac), or about 60 with a three-feature sustainability bonus.</li><li style="margin-bottom:.5rem"><strong>A layout check.</strong> 54 garden units at an average of about 950 SF, in 3-story walk-up buildings, need about 19,000&ndash;20,000 SF of building footprint, split across two or three buildings. Add about 34,000 SF of parking and 6,000&ndash;8,000 SF of drives and walks, and the site is about 50&ndash;55% impervious. A stormwater pond or underground system and the required buffers take most of what is left.</li><li style="margin-bottom:.5rem"><strong>Realistic yield: about 44&ndash;54 units.</strong> The slope, the swale through the middle of the site, buffers next to the single-family lots on Hillside Ave, tree preservation and sewer depth (see below) could cost a few units. A buyer will want an engineer&rsquo;s concept plan before committing to 54.</li><li style="margin-bottom:.5rem"><strong>Other products.</strong> For-rent or for-sale townhomes (about 24&ndash;30 units) would suit the neighborhood&rsquo;s scale and the topography, but would yield less land value per acre. A 4-story elevator building at the bonus density (60&ndash;66 units) is allowed, but is unlikely to pencil on a site this size.</li><li style="margin-bottom:.5rem"><strong>Pricing basis.</strong> Value is set on the 54-unit by-right yield and cross-checked per acre, which covers the realistic range. No bonus density is assumed.</li></ul></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Site constraints &mdash; topography, utilities &amp; historic districts</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>Topography.</strong> USGS 1-meter elevation data shows the land between about 131 and 154 ft, so about 22 ft of relief. The high ground is the front parcels near Woodside Ave and the middle of the rear parcel. A shallow swale runs north through the west part of the rear parcel, and the ground falls again at the east end. Typical slopes are 5&ndash;10%, with spots near 12%. That means stepped building pads, retaining walls and more grading cost, but no slopes too steep to build on.</li><li style="margin-bottom:.5rem"><strong>Flood, streams and wetlands.</strong> None mapped on the site. The closest mapped stream is an unnamed tributary of Cross Creek about 370 ft away. FEMA&rsquo;s AE flood zone along Cross Creek is well off the site.</li><li style="margin-bottom:.5rem"><strong>Water and sewer.</strong> PWC water and sewer mains are mapped in Woodside Ave, about 35&ndash;45 ft from the property line. No mains cross the site. The swale and the east end of the rear parcel sit roughly 10&ndash;20 ft below Woodside Ave, so buildings at the back may need a private sewer pump station or an off-site sewer easement to the north. A developer will check this first, and it could reduce what they pay.</li><li style="margin-bottom:.5rem"><strong>Historic districts.</strong> The house at 210 and the 208 parcel are outside the mapped historic districts. The state historic office map shows about <strong>19,600 SF</strong> (about 0.45 ac) at the east end of the rear parcel inside the <strong>Haymount National Register Historic District</strong>. National Register status by itself does not restrict a privately funded project. It does trigger a federal historic review (Section 106) if the project uses federal financing, such as an FHA/HUD loan or housing tax credits. The same map shows the <strong>local</strong> Haymount Historic District touching only about 880 SF of the rear parcel&rsquo;s edge. That is likely a mapping offset, but if any part is in the local district, new construction there would need a Certificate of Appropriateness. The city&rsquo;s historic preservation staff should confirm the boundary.</li><li style="margin-bottom:.5rem"><strong>Neighbor to the north.</strong> The City tract next door includes the Lions Civic Center, which the state has found eligible for the National Register. This does not restrict the subject, but it adds to the historic context a buyer will see in review.</li><li style="margin-bottom:.5rem"><strong>Trees and buffers.</strong> The site is almost all wooded. The city&rsquo;s tree preservation, landscaping and buffer rules will apply, including a buffer along the single-family lots to the east. Both cost usable land.</li><li style="margin-bottom:.5rem"><strong>Demolition.</strong> Removing the 2,382 SF house, its driveway and utilities, with an asbestos survey first, is estimated at about <strong>$22,000</strong>. That is a broker estimate, not a contractor bid.</li></ul></div><p class="note">Sources: <a href="https://epqs.nationalmap.gov/v1/docs" target="_blank" rel="noopener">USGS elevation point query service</a>, <a href="https://gis.co.cumberland.nc.us/server/rest/services" target="_blank" rel="noopener">Cumberland County GIS</a> (NCDOT 2-ft contours, FEMA flood, hydrology, wetlands and PWC utility layers), <a href="https://gis2.ncdcr.gov/dncrgis/rest/services/NCHPO_Public/NCHPO_Historic_Resources/MapServer" target="_blank" rel="noopener">NC State Historic Preservation Office GIS</a>, <a href="https://files.nc.gov/historic-preservation/nr/CD0179.pdf" target="_blank" rel="noopener">Haymount Historic District National Register nomination</a>, <a href="https://files.nc.gov/ncdcr/historic-preservation-office/PDFs/CH_09-2080.pdf" target="_blank" rel="noopener">NCDOT historic structures report (Lions Civic Center)</a>. Elevations were sampled on a grid of about 66 &times; 51 ft and are approximate. A topographic survey is needed.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Methodology and verification basis</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem">Comps were researched independently from Cumberland County sale and deed records. Each price was checked against the excise stamps on the deed, at $2 per $1,000 of price.</li><li style="margin-bottom:.5rem"><strong>The search:</strong> every MR-5-zoned parcel of 0.7 acre or more in the county that sold for a recorded price since 2021. Sales of existing apartment complexes, house sales, multi-parcel package deals and very low-price transfers were removed. That left six vacant multifamily land sales from 2024 to 2026.</li><li style="margin-bottom:.5rem"><strong>Two units of comparison:</strong> price per acre (primary) and price per by-right unit at 20 units per acre (cross-check). Adjustments are percentages and reflect the broker&rsquo;s professional judgment. Time is adjusted at about +2.5% per year to November 2026.</li><li style="margin-bottom:.5rem"><strong>Demolition</strong> is deducted after the land value is set, because the comps were vacant when sold.</li><li style="margin-bottom:.5rem"><strong>Not relied on:</strong> 0 Southern Ave (2.2 ac, sold for $52,000 in 4/2026) as a likely distressed sale; the City&rsquo;s 6.32-acre Catalyst I site (an option at an appraised $545,000, not a closed sale); and 1200 Glen Iris Dr (part of a larger apartment portfolio purchase). They are discussed under counter-evidence.</li></ul></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Comparable land sales &mdash; MR-5 multifamily sites</h2>
+<style>.land-comps{table-layout:fixed;width:100%}.land-comps th:nth-child(1),.land-comps td:nth-child(1){width:31%}.land-comps th:nth-child(2),.land-comps td:nth-child(2){width:9%}.land-comps th:nth-child(3),.land-comps td:nth-child(3){width:12%}.land-comps th:nth-child(4),.land-comps td:nth-child(4){width:8%}.land-comps th:nth-child(5),.land-comps td:nth-child(5){width:12%}.land-comps th:nth-child(6),.land-comps td:nth-child(6){width:17%}.land-comps th:nth-child(7),.land-comps td:nth-child(7){width:11%}</style><div class="card table-wrap"><table class="table comps-table land-comps"><tr><th>Land sale (MR-5)</th><th>Sold</th><th>Price</th><th>Acres</th><th>$/acre</th><th>Units at 20/ac / $ per unit</th><th>Distance</th></tr><tr><td><strong>L1. Berkshire Rd, Lot A (LH Land LLC)</strong></td><td>6/2026</td><td>$430,000</td><td>2.08</td><td>$206,731</td><td>42 / $10,238</td><td>2.6 mi</td></tr><tr><td><strong>L2. 0 North St (McFadyen Ventures)</strong></td><td>7/2026</td><td>$180,000</td><td>1.20</td><td>$150,000</td><td>24 / $7,500</td><td>1.0 mi</td></tr><tr><td><strong>L3. 0 Sam Cameron Ave (Prexaco LLC)</strong></td><td>1/2025</td><td>$180,000</td><td>0.87</td><td>$206,897</td><td>17 / $10,588</td><td>1.3 mi</td></tr><tr><td><strong>L4. 6065 Cliffdale Rd</strong></td><td>12/2025</td><td>$180,000</td><td>1.64</td><td>$109,756</td><td>33 / $5,455</td><td>4.9 mi</td></tr><tr><td><strong>L5. 0 Mount Rainer Rd (MR-5/CZ)</strong></td><td>1/2024</td><td>$150,000</td><td>1.53</td><td>$98,039</td><td>31 / $4,839</td><td>2.7 mi</td></tr><tr><td><strong>L6. 3100 Tallywood Dr (MR-5/CZ)</strong></td><td>8/2025</td><td>$500,000</td><td>7.23</td><td>$69,156</td><td>145 / $3,448</td><td>2.4 mi</td></tr></table></div><p class="note">Sources: Cumberland County records for <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=177845" target="_blank" rel="noopener">L1</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=83197" target="_blank" rel="noopener">L2</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=80933" target="_blank" rel="noopener">L3</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=16044" target="_blank" rel="noopener">L4</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=88303" target="_blank" rel="noopener">L5</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=58016" target="_blank" rel="noopener">L6</a>. All are vacant MR-5 land, and prices were checked against deed stamps. L5 and L6 are conditional MR-5 (MR-5/CZ) zoning, which ties them to an approved plan. L6 carried a minor outbuilding. Unit counts apply the 20-per-acre gross density and rounding rule for comparison; they are not approved plans. Distances are straight-line from the subject.</p>
+      </div>
+    </section>
+
+    <section class="alt" style="break-before:page">
+      <div class="container">
+        <h2>Adjustment matrix</h2>
+<p class="lede" style="margin-bottom:var(--space-6)">Each sale is adjusted to the subject as vacant land: about 2.70 acres of MR-5 land in Haymount, about 54 by-right units, wooded, about 22 ft of relief with a central swale, 235 ft of frontage on a local street, and a rear that may need sewer pumping. Demolition is deducted separately below.</p><div class="card table-wrap"><table class="table adj-table"><tr><th>Comp property</th><th>Unadj. $/acre</th><th>Net Adj. %</th><th>What was adjusted</th><th>Adj. $/acre</th></tr><tr><td><strong>L1. Berkshire Rd, Lot A</strong></td><td>$206,731</td><td>&minus;20%</td><td>Time: recent (0%). Location: established west-central residential area near Raeford Rd, similar to Haymount for apartment rents (0%). Size: about 75% of the subject&rsquo;s area; smaller sites sell for more per acre (&minus;5%). Site: the subject has about 22 ft of relief, a swale, possible sewer pumping and a long rear behind narrow frontage (&minus;15%).</td><td>$165,385</td></tr><tr><td><strong>L2. 0 North St</strong></td><td>$150,000</td><td>0%</td><td>Time: recent (0%). Location: older mixed-use area near Ramsey St, below Haymount for rents and buyer appeal (+15%). Size: smaller (&minus;5%). Site: subject topography and sewer (&minus;10%).</td><td>$150,000</td></tr><tr><td><strong>L3. 0 Sam Cameron Ave</strong></td><td>$206,897</td><td>&minus;15%</td><td>Time: about 1.9 years ago (+5%). Location: Campbell Ave area south of downtown, below Haymount (+10%). Size: about a third of the subject&rsquo;s area, a small infill lot that sells for much more per acre (&minus;20%). Site: subject topography and sewer (&minus;10%).</td><td>$175,862</td></tr><tr><td><strong>L4. 6065 Cliffdale Rd</strong></td><td>$109,756</td><td>+7%</td><td>Time: about 1 year ago (+2%). Location: suburban west Cliffdale Rd. Its arterial frontage would allow 24 units per acre, but it lacks Haymount&rsquo;s close-in appeal (+15%). Size: smaller (&minus;5%). Site: subject topography (&minus;5%).</td><td>$117,439</td></tr><tr><td><strong>L5. 0 Mount Rainer Rd</strong></td><td>$98,039</td><td>+12%</td><td>Time: about 2.8 years ago (+7%). Location: north Fayetteville subdivision setting, below Haymount (+15%). Size: smaller (&minus;5%). Site: subject topography (&minus;5%). Zoning: conditional MR-5 with a set plan, offset by its approval status (0%).</td><td>$109,804</td></tr><tr><td><strong>L6. 3100 Tallywood Dr</strong></td><td>$69,156</td><td>+33%</td><td>Time: about 1.3 years ago (+3%). Location: Tallywood area off Raeford Rd, below Haymount (+10%). Size: about 2.7 times the subject&rsquo;s area, a bulk purchase that sells for much less per acre (+25%). Site: subject topography (&minus;5%).</td><td>$91,977</td></tr></table></div><p class="note">Adjusted range: about $92,000&ndash;$176,000 per acre. Median: about $133,700. Weighted average: about $144,300 per acre (L1 25%; L2 and L3 20% each; L4 15%; L5 and L6 10% each). The two 2026 sales and the closest infill sale get the most weight. The concluded rate is <strong>$145,000 per acre</strong>.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Value analysis &amp; opinion of value</h2>
+<div class="card">
+          <div class="table-wrap">
+            <table class="table parcel-table">
+              <tr><th>Approach</th><th>Basis</th><th>Indication</th></tr>
+              <tr><td>Price per acre (primary)</td><td>2.70 ac &times; $145,000</td><td>$391,500</td></tr>
+              <tr><td>Price per by-right unit (cross-check)</td><td>54 units &times; $6,500&ndash;$8,500 (comps L1&ndash;L5 unadjusted: $4,839&ndash;$10,588)</td><td>$351,000&ndash;$459,000 (midpoint $405,000)</td></tr>
+              <tr><td>Land value as if vacant</td><td>Reconciled</td><td>About $400,000</td></tr>
+              <tr><td>Less demolition of the house at 210</td><td>2,382 SF house, driveway and utilities, with an asbestos survey</td><td>&minus;$22,000</td></tr>
+              <tr><td><strong>Indicated value, all three parcels, net of demolition</strong></td><td></td><td><strong>About $378,000&ndash;$385,000</strong></td></tr>
+              <tr><td>County land values, all three parcels</td><td>$105,000 + $135,000 + $144,000</td><td>$384,000 (reference)</td></tr>
+              <tr><td>Owner&rsquo;s 2021 purchase, with the house</td><td>Book 11088, Page 590</td><td>$220,000 (reference)</td></tr>
+            </table>
+          </div>
+          <div class="stats">
+            <div class="stat stat-alert"><div class="stat-label">Broker price opinion</div><div class="stat-value">$385,000</div></div>
+            <div class="stat" style="grid-column:span 2"><div class="stat-label">Value range</div><div class="stat-value">$350K&ndash;$425K</div></div>
+          </div>
+          <p class="note" style="margin-top:1.5rem">The broker price opinion of <strong>$385,000</strong> is for all three parcels sold together to a multifamily developer, with the buyer removing the house. The range of $350,000&ndash;$425,000 runs from a 44-unit yield, or a buyer who prices in sewer pumping, at the low end, to a clean 54-unit concept plan and strong Haymount demand at the high end. The result is close to the county&rsquo;s land values ($384,000), but well below the county&rsquo;s total value of $655,900, because a developer pays nothing for a house it plans to tear down.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Counter-evidence &amp; upside</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>The house has value a developer will not pay for.</strong> The county values the house at 210 at $221,499, and $406,900 with its 0.69-acre lot. Under this report&rsquo;s demolition assumption, that value is lost. <strong>A split may net more:</strong> keep or sell the house on its own lot, and sell 208 plus the rear 1.6 ac (about 2.06&ndash;2.08 ac and about 42 units, reached through 208&rsquo;s 120 ft of frontage) as a smaller multifamily site, roughly $280,000&ndash;$300,000 at the same rates. That house value has not been appraised here. It would need a separate residential opinion and a check that 42 units still work on the narrower site.</li><li style="margin-bottom:.5rem"><strong>Weak sales for small sites in weaker areas.</strong> 0 Southern Ave in Massey Hill, 2.2 ac of MR-5 land listed at $170,000 with a 16-townhome concept, sold for $52,000 (about $23,600 per acre) in 4/2026. L5 and L6 sold for under $100,000 per acre. Buyers for small multifamily sites are few, and many local apartment builders want larger, flatter suburban tracts.</li><li style="margin-bottom:.5rem"><strong>Public price points are lower.</strong> The City&rsquo;s Catalyst I site, 6.32 acres for an 84-unit affordable project, carries an appraised value of $545,000, about $86,000 per acre or $6,500 per unit.</li><li style="margin-bottom:.5rem"><strong>Site costs.</strong> The slope, the central swale, possible sewer pumping, tree preservation, the buffer to the single-family lots, and a historic review if federal financing is used all add cost and time. A buyer may ask for a long due-diligence and approval period.</li><li style="margin-bottom:.5rem"><strong>Neighborhood reaction.</strong> A 50-plus-unit project next to large single-family lots on Hillside Ave and the National Register district may draw opposition. The project is by right, so it does not need a public hearing, but delays are still possible.</li><li style="margin-bottom:.5rem"><strong>Upside: Haymount scarcity.</strong> Multifamily-zoned infill land this size, close to downtown and Haymount, rarely comes up. Existing Haymount apartment properties have traded actively: 412 Oakridge Ave (1.9 ac) sold for $4.0 million in 8/2026 and 615 Oakridge Ave (2.3 ac) for $2.19 million in 2/2025, per county records.</li><li style="margin-bottom:.5rem"><strong>Upside: bonus density.</strong> Three sustainability features (for example, Energy Star on most units, reflective paving and a trail connection) could raise the yield to about 60 units. At $7,500 per unit, the extra 6 units are worth about $45,000 to a buyer who plans for them.</li></ul></div><p class="note">Sources: <a href="https://www.redfin.com/zipcode/28306/land" target="_blank" rel="noopener">Redfin 28306 land listings (0 Southern Ave)</a>; <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=76376" target="_blank" rel="noopener">county record for 0 Southern Ave</a>; <a href="https://www.fayettevillenc.gov/Media-Releases/Council-authorizes-attainable-housing-on-Murchison-Road-catalyst-site" target="_blank" rel="noopener">City of Fayetteville release on the Catalyst I site</a>; county records for <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=78489" target="_blank" rel="noopener">412 Oakridge Ave</a> and <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=62989" target="_blank" rel="noopener">615 Oakridge Ave</a>.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Listing / commission terms</h2>
+<div class="card">
+          <div class="terms-grid">
+            <div>
+              <h4>Sale listing</h4>
+              <p><strong>8% co-brokered</strong> &mdash; of the gross sale price when a cooperating broker procures the buyer, split under standard commercial co-brokerage practice.</p>
+              <p style="margin-top:.5rem"><strong>6% in-house</strong> &mdash; when Grant-Murray Real Estate, LLC procures the buyer directly.</p>
+            </div>
+            <div>
+              <h4>Offering approach</h4>
+              <p>List all three parcels together at about <strong>$425,000&ndash;$439,000</strong>, leaving room to negotiate toward the $385,000 opinion. Market to local and regional apartment and townhome builders, infill developers and Haymount investors. Feature the by-right MR-5 density (54 units, about 60 with the bonus), the Haymount location and the City recreation land next door. Before launch, order a boundary and topographic survey, ask PWC to confirm sewer service to the rear, get written confirmation of the historic district boundary from city staff, and consider a simple engineer&rsquo;s concept plan, which can support a price toward the top of the range. Decide whether to offer the house separately.</p>
+            </div>
+          </div>
+          <p class="note">Listing broker: <strong>Patrick Murray, CCIM, SIOR</strong>, Grant-Murray Real Estate, LLC. Final listing terms, duration and marketing-cost provisions will be set out in a separate written listing agreement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Limitations</h2>
+<div class="card"><ol style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.6rem"><strong>Demolition assumption.</strong> As instructed, the house at 210 Woodside Ave is assumed to be demolished, and its value as a residence is not included.</li><li style="margin-bottom:.6rem"><strong>No inspection or survey.</strong> The property was not inspected. Acreage (2.75 ac deed, about 2.70 ac GIS), frontage, topography and utility locations come from county, state and federal GIS and are approximate.</li><li style="margin-bottom:.6rem"><strong>Unit yield.</strong> The unit counts are a zoning-based estimate, not an engineered plan or a city approval. Actual yield depends on TRC review, stormwater, tree preservation, buffers and sewer design.</li><li style="margin-bottom:.6rem"><strong>Zoning and historic status.</strong> MR-5 zoning and historic district boundaries come from public GIS and the UDO. The status of city file 26-0379 and the local historic district edge were not confirmed with city staff.</li><li style="margin-bottom:.6rem"><strong>Comp data.</strong> Comp sizes and prices come from Cumberland County records and deed stamps and were not confirmed with buyers or sellers. The topography and utilities of the comps were not checked.</li><li style="margin-bottom:.6rem">No title search or environmental review was performed. An older house may contain asbestos or lead paint that affects demolition cost.</li><li>This is a broker&rsquo;s opinion of value for marketing purposes, prepared by Grant-Murray Real Estate, LLC. It is not a certified USPAP appraisal.</li></ol></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col">
+        <div class="card">
+          <h3>Prepared by</h3>
+          <p><strong>Patrick Murray, CCIM, SIOR</strong><br/>Principal / Broker in Charge<br/>Grant-Murray Real Estate, LLC</p>
+          <p style="margin-top:.75rem">150 N. McPherson Church Rd<br/>Fayetteville, NC 28303</p>
+          <p style="margin-top:.75rem">O: 910.829.1617<br/>patrick@grantmurrayre.com<br/><a href="https://www.grantmurrayre.com" target="_blank" rel="noopener">grantmurrayre.com</a></p>
+        </div>
+        <div class="card">
+          <h3>Prepared for</h3>
+          <p><strong>Adam Canales</strong><br/>Owner of record<br/>210 Woodside Ave<br/>Fayetteville, NC 28301</p>
+          <p class="disclaimer">This Broker Price Opinion (BPO) is prepared by Patrick Murray, CCIM, SIOR, of Grant-Murray Real Estate, LLC. It is not an appraisal and is not a certified valuation under USPAP. The conclusion uses the sales comparison approach on independently researched closed land sales, with a per-unit cross-check. Adjustments reflect the broker's professional judgment.</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <footer>
+    <div class="container footer-inner">
+      <img class="footer-logo" src="assets/gm-logo.svg" alt="Grant-Murray Real Estate" />
+      <div>
+        Broker Price Opinion &mdash; prepared 11/13/2026.<br/>
+        Prepared by Grant-Murray Real Estate | CCIM | SIOR<br/>
+        Live report: <a href="https://tpmurray13.github.io/bpo-208-210-woodside-ave/" style="color:#ffffff;text-decoration:underline" target="_blank" rel="noopener">tpmurray13.github.io/bpo-208-210-woodside-ave</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
